@@ -13,8 +13,8 @@ body {
     row-gap: 5px;
     grid-template-areas:
         "header header header"
-        "sidebar main main"
-        "sidebar main main"
+        "section main main"
+        "section main main"
         "footer footer footer";
     height: 100vh;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .menu {
-    grid-area: sidebar;
+    grid-area: section;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,7 +65,7 @@ h3 {
     text-align: center;
 }
 
-sidebar span {
+section span {
     color: grey;
 }
 
